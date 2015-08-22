@@ -1,0 +1,830 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"high",
+				"highestID"
+			],
+			[
+				"set",
+				"setTimeout(${0:func}, delay)	Window"
+			],
+			[
+				"getEleme",
+				"getElementById(${0:id})	Element"
+			],
+			[
+				"m",
+				"msgBlock"
+			],
+			[
+				"backgroun",
+				"backgroundColor	Style CSS"
+			],
+			[
+				"getE",
+				"getElementsByClassName(${0:names})	Element"
+			],
+			[
+				"GetEle",
+				"getElementById(${0:id})	Element"
+			],
+			[
+				"TE",
+				"tenantID"
+			],
+			[
+				"tok",
+				"tok"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"da",
+				"day"
+			],
+			[
+				"rent",
+				"rentDue"
+			],
+			[
+				"bu",
+				"buttonString"
+			],
+			[
+				"ne",
+				"nextRentDue"
+			],
+			[
+				"db",
+				"dbmonth"
+			],
+			[
+				"la",
+				"landlordID"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"getEL",
+				"getElementById(${0:id})	Element"
+			],
+			[
+				"this",
+				"thisMonthDate"
+			],
+			[
+				"mon",
+				"monthName"
+			],
+			[
+				"unit",
+				"unitdata"
+			],
+			[
+				"tenant",
+				"tenantID"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Ten",
+				"TenantID"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"new",
+				"newpass"
+			],
+			[
+				"co",
+				"code"
+			],
+			[
+				"pas",
+				"password1"
+			],
+			[
+				"h",
+				"helper"
+			],
+			[
+				"from",
+				"fromdate"
+			],
+			[
+				"f",
+				"fromdate"
+			],
+			[
+				"se",
+				"selectString"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"pro",
+				"prodID"
+			],
+			[
+				"Prop",
+				"Properties"
+			],
+			[
+				"v_over",
+				"v_overlay_show"
+			],
+			[
+				"c",
+				"clear"
+			],
+			[
+				"inner",
+				"innerHeight	Window"
+			],
+			[
+				"class",
+				"className	Element"
+			],
+			[
+				"getEle",
+				"getElementsByClassName(${0:names})	Element"
+			],
+			[
+				"ta",
+				"table-row"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"d",
+				"directory"
+			],
+			[
+				"uo",
+				"uploadStatus"
+			],
+			[
+				"dropZ",
+				"dropzonePreview"
+			],
+			[
+				"drop",
+				"dropzonePreview"
+			],
+			[
+				"upl",
+				"uploadStatus"
+			],
+			[
+				"pr",
+				"propID"
+			],
+			[
+				"scr",
+				"scripts"
+			],
+			[
+				"ph",
+				"photoString"
+			],
+			[
+				"pa",
+				"pathToPhotos"
+			],
+			[
+				"b",
+				"buttonString"
+			],
+			[
+				"te",
+				"tenantID"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"Proper",
+				"PropertyID"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"an",
+				"animation-delay"
+			],
+			[
+				"sli",
+				"slide-in-2"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"tran",
+				"translateX"
+			],
+			[
+				"trna",
+				"translateY"
+			],
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"prop",
+				"propData"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"border-bo",
+				"border-bottom-left-radius"
+			],
+			[
+				"border-bot",
+				"border-bottom-right-radius"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"con",
+				"contact-layer"
+			],
+			[
+				"border-b",
+				"border-bottom-left-radius"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"offset",
+				"offsetTop"
+			],
+			[
+				"off",
+				"offsetTop"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"hover",
+				"hover-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"nav",
+				"nav-collapse"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"fot-",
+				"font-weight"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border-",
+				"border-left"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"fr",
+				"firstname"
+			],
+			[
+				"use",
+				"userModel"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border-r",
+				"border-color"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"t",
+				"task"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 82,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"bow",
+				"Bower: Install"
+			],
+			[
+				"insta",
+				"Bower: Install"
+			],
+			[
+				"bower install ",
+				"Bower: Install"
+			],
+			[
+				"instal",
+				"Bower: Install"
+			],
+			[
+				"Install",
+				"Bower: Install"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"bower install reqwest",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/application/classes/Controller/Tenant/EditProfile.php",
+		"/C/wamp/www/application/classes/Model/Admin/Tenant.php",
+		"/C/wamp/www/application/classes/Model/Admin/Landlord.php",
+		"/C/wamp/www/application/views/Home.php",
+		"/C/wamp/www/application/classes/Controller/Tenant/Home.php",
+		"/C/wamp/www/application/classes/Controller/Create.php",
+		"/C/wamp/www/application/classes/Controller/Admin/Reports.php",
+		"/C/wamp/www/application/classes/Model/Users/Users.php",
+		"/C/wamp/www/application/views/Tenant/home.php",
+		"/C/wamp/www/application/views/Tenant/messages.php",
+		"/C/wamp/www/application/views/Tenant/sendmessage.php",
+		"/C/wamp/www/application/views/Tenant/editProfile.php",
+		"/C/wamp/www/application/classes/Controller/Tenant/Contact.php",
+		"/C/wamp/www/application/bootstrap.php",
+		"/C/wamp/www/application/views/confirm.php",
+		"/C/wamp/www/application/classes/Controller/Admin/SubmitKey.php",
+		"/C/wamp/www/application/classes/Controller/Confirm.php",
+		"/C/wamp/www/application/views/submitkey.php",
+		"/C/wamp/www/application/classes/Model/Email/Email.php",
+		"/C/wamp/www/application/views/tutorial.php",
+		"/C/wamp/www/application/classes/Controller/Tutorial.php",
+		"/C/wamp/www/application/views/Landlord/editProfile.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/EditProfile.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/EditUnit.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/ViewUnit.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/EditProperty.php",
+		"/C/wamp/www/application/views/Landlord/editproperty.php",
+		"/C/wamp/www/application/views/Landlord/addunit.php",
+		"/C/wamp/www/application/views/Landlord/create.php",
+		"/C/wamp/www/media/styles/style.css",
+		"/C/wamp/www/application/views/Landlord/editunit.php",
+		"/C/wamp/www/application/views/Landlord/home.php",
+		"/C/wamp/www/application/views/Create.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/Create.php",
+		"/C/wamp/www/application/views/Landlord/transactions.php",
+		"/C/wamp/www/application/views/admin/reports.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/Home.php",
+		"/C/wamp/www/application/views/Tenant/contact.php",
+		"/C/wamp/www/application/views/Landlord/sendmessage.php",
+		"/C/wamp/www/application/views/Landlord/messages.php",
+		"/C/wamp/www/application/views/Landlord/viewunit.php",
+		"/C/wamp/www/application/views/Landlord/viewtenant.php",
+		"/C/wamp/www/application/views/Landlord/viewmessage.php",
+		"/C/wamp/www/application/views/Landlord/property.php",
+		"/C/wamp/www/application/views/Landlord/mytenants.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/Transactions.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/ViewMessage.php",
+		"/C/wamp/www/application/classes/Controller/Tenant/Messages.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/AddUnit.php",
+		"/C/wamp/www/application/classes/Controller/Helpers/Notification.php",
+		"/C/wamp/www/media/scripts/nav.js",
+		"/C/wamp/www/application/classes/Controller/Landlord/Logout.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/Property.php",
+		"/C/Users/Logan/Desktop/Web Dev/DakotaLanes/index.html",
+		"/C/wamp/www/application/classes/Controller/Landlord/MyTenants.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/ViewTenant.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/graphstuff.js",
+		"/C/Users/Logan/Desktop/Vortex Framework/src/style/align/style.scss",
+		"/C/Users/Logan/Desktop/Vortex Framework/src/style/responsive/style.scss",
+		"/C/Users/Logan/Desktop/Vortex Framework/src/style/sticky-footer/style.scss",
+		"/C/Users/Logan/Desktop/Vortex Framework/package.json",
+		"/C/Users/Logan/Desktop/Vortex Framework/src/js/overlay/overlay.js",
+		"/C/Users/Logan/Desktop/Vortex Framework/src/js/sticky-footer/sticky-footer.js",
+		"/C/Users/Logan/Desktop/Vortex Framework/src/index.html",
+		"/C/Users/Logan/Desktop/Vortex/Node/package.json",
+		"/C/wamp/www/media/scripts/login.js",
+		"/C/Users/Logan/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp/www/application/classes/Controller/Helpers/Upload.php",
+		"/C/wamp/www/media/scripts/home.js",
+		"/C/wamp/www/application/classes/Controller/Helpers/CreatePayment.php",
+		"/C/wamp/www/application/classes/Controller/Helpers/Webhook.php",
+		"/C/wamp/www/application/classes/Controller/Helpers/Financial.php",
+		"/C/wamp/www/application/views/Login.php",
+		"/C/wamp/www/application/classes/Controller/Login.php",
+		"/C/Users/Logan/Desktop/Vortex/Node/script.js",
+		"/C/Users/Logan/Desktop/Vortex/Node/index.html",
+		"/C/Users/Logan/Desktop/Vortex/Node/index.js",
+		"/C/Users/Logan/Desktop/Vortex/Node/Procfile",
+		"/C/wamp/www/application/views/Forgot.php",
+		"/C/wamp/www/application/classes/Controller/Forgot.php",
+		"/C/wamp/www/application/views/Admin/reports.php",
+		"/C/wamp/www/application/classes/Model/Admin/Admin.php",
+		"/C/wamp/www/application/classes/Model/Admin/Financial.php",
+		"/C/wamp/www/application/views/Landlord/graphs.php",
+		"/C/Users/Logan/Desktop/HTML5 CSS3/index.html",
+		"/C/wamp/www/helpers/UploadPhoto.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/messages.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/AddTenant.php",
+		"/C/wamp/www/application/classes/Rentzrey/UploadPhoto.php",
+		"/C/wamp/www/media/scripts/dropzone.js.sdx",
+		"/C/Users/Logan/Desktop/Vortex/Ferrofluid/Source Files/src/scripts/script.js",
+		"/C/Users/Logan/Desktop/Vortex/Ferrofluid/Source Files/client.js",
+		"/C/Users/Logan/Desktop/Vortex/Ferrofluid/Source Files/server.js",
+		"/C/Users/Logan/Desktop/Vortex/Ferrofluid/Source Files/test.js",
+		"/C/wamp/www/application/views/Landlord/addsub.php",
+		"/C/wamp/www/application/classes/Controller/Temp.php",
+		"/C/wamp/www/modules/email/classes/Email.php",
+		"/C/wamp/www/application/views/Template.php",
+		"/C/wamp/www/index.php",
+		"/C/wamp/www/modules/database/config/database.php",
+		"/C/wamp/www/application/classes/Controller/Landlord/Temp.php",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/C/wamp/www/.htaccess",
+		"/C/wamp/www/Rentzrey/application/bootstrap.php",
+		"/C/wamp/www/sdf.htaccess",
+		"/C/wamp/www/e.htaccess",
+		"/C/wamp/www/Rentzrey/Rentzrey/application/bootstrap.php",
+		"/C/wamp/www/Rentzrey/Rentzrey/application/views/site.php",
+		"/C/wamp/www/Rentzrey/Rentzrey/application/classes/Controller/Hello.php",
+		"/C/wamp/www/Rentzrey/Rentzrey/example.htaccess",
+		"/C/wamp/www/Rentzrey/Rentzrey/install.php",
+		"/C/Users/Logan/Desktop/React/FluxApp/src/js/components/app.js",
+		"/C/Users/Logan/Desktop/React/FluxApp/gulpfile.js",
+		"/C/Users/Logan/Desktop/React/FluxApp/src/js/main.js",
+		"/C/Users/Logan/Desktop/React/FluxApp/src/index.html",
+		"/C/Users/Logan/Desktop/React/Integrate With Other Frameworks/index.html",
+		"/C/Users/Logan/Desktop/React/Integrate With Other Frameworks/app.js",
+		"/C/Users/Logan/Desktop/Web Dev Practice/React/children.html",
+		"/C/Users/Logan/Desktop/React/index.html",
+		"/C/Users/Logan/Desktop/React/react.js",
+		"/C/Users/Logan/Desktop/React/in browser compiler.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"GetPropN",
+			"lo",
+			"address",
+			"address0",
+			"address",
+			"fixed",
+			"'>\";",
+			"nav",
+			"nav-lo",
+			"contac",
+			"unit",
+			"nav",
+			"form",
+			"button",
+			"nav-col",
+			"'><",
+			"nav-2",
+			"nav2",
+			"z-in",
+			"1",
+			"jpg",
+			"option"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Lippy.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

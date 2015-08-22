@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gettin Lippy With It</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/mobile.css">
+	<script src='scripts/js/smooth-scroll.js'></script>
+	
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+	<div class="title-angle"> </div>
+	<div class="hamburger" id='hamburger'>
+		<img src="images/HAMBURGER.png" width='50' alt="">
+	</div>
+		<div class="title">
+			<ul class='title-nav' id='nav'>
+				<li onclick="smoothScroll.animateScroll( null, '#charity', {offset: 90, updateURL: false} );"><b>ABOUT</b></li>
+				<li onclick="smoothScroll.animateScroll( null, '#ins', {offset: 90, updateURL: false} );"><b>ENTER</b></li>
+				<li onclick="smoothScroll.animateScroll( null, '#rules', {offset: 90, updateURL: false} );"><b>RULES</b></li>
+				<li onclick="smoothScroll.animateScroll( null, '#donate', {offset: 90, updateURL: false} );"><b>DONATE</b></li>
+				<li onclick="smoothScroll.animateScroll( null, '#sponsors', {offset: 90, updateURL: false} );"><b>SPONSORS</b></li>
+			</ul>
+		</div>
+	
+	<div class="banner">
+			<div class="article">
+				<h1><b>GETTIN LIPPY WITH IT</b></h1>
+				<h4>(Lip sync) battle for charity</h4>
+			</div>
+	</div>
+	</div>
+</div>
+
+	<div class="container content charity" id='charity'>
+		<div class="row">
+			<h1 style='padding-left: 23px'>The Charity</h1>
+				<p>
+					E4C is a non-profit human services charitable organization that moves people toward positive, healthy and lasting change. We accept each person at his or her starting point. E4C works toward addressing the conditions that limit a person's ability to fully participate in community.
+					Community is at the heart of E4C and our programs exist within an attitude of grassroots community development and collaboration. We make positive life change happen by working in partnership with people, interest groups, sister organizations, funders and the community at large.
+					E4C's mission is to limit, alleviate and ultimately eliminate poverty.
+
+				</p>
+		</div>
+	</div>
+	<br><br><br>
+	<div class="container-fluid  about">
+		<div class="container">
+			<div class="row">
+
+			
+				<h1 style='padding-left: 23px'>The Contest</h1>
+				<p>
+					Get your lips and phone ready to record you and /or a group of friends participating in this amazing online event.  This is your opportunity to not only have fun but to showcase your music video production skills, your lip sync and air guitar abilities!  Create a video no more than 60 seconds long.  Lip syncing to your favorite tune.  Act out; tell a story; make it yours!  Residents of Edmonton and surrounding areas will have the ability to place a vote on the lip sync videos.  The videos with the highest votes will go on to the finale.
+				</p>
+
+		</div>
+		</div>
+		
+	</div>
+
+		<div class="container">
+		<div class="row">
+				
+			<br><br>
+
+			</div>
+			<div class="instructions" >
+			<span id="ins"></span>
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="images/icon1.png" alt="" width='150' class='number'>
+					</div>
+					<div class="col-sm-10">
+						<h2 class="i-title">Make a video</h2>
+						<p class="i-info">Make a video of yourself lip syncing to any song</p>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="images/icon2.png" alt="" width='150' class='number'>
+					</div>
+					<div class="col-sm-10">
+						<h2 class="i-title">Upload the video</h2>
+						<p class="i-info">To any social media or video sharing website (YouTube, Facebook, Vimeo)</p>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="images/icon3.png" alt="" width='150' class='number'>
+					</div>
+					<div class="col-sm-10">
+						<h2 class="i-title">Send us your video</h2>
+						<p class="i-info">Fill out the form below to start your entry</p>
+						<br><br>
+						<div class='info-formg'>
+							<form class="form form-inline">
+								<div class="form-group">
+									<input type="text" class='form-control' placeholder='Full Name' id='name'>
+								</div>
+								<div class="form-group">
+									<input type="email" class='form-control' placeholder='Email' id='email'>
+								</div>
+
+								<div class="form-group">
+									<input type="email" class='form-control' placeholder='Link To Video' id='link' style='width: 100%'>
+								</div>
+							</form>
+							<br>
+							<button class='btn btn-primary' id='submit'>Submit</button>
+						</div>
+					</div>
+				</div>
+				<br>
+
+				
+				<br>
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="images/icon4.png" alt="" width='150' class='number'>
+					</div>
+					<div class="col-sm-10">
+						<h2 class="i-title">Donate!</h2>
+						<p class="i-info">The first entry costs $10, every other entry after that is $5.</p>
+						<br><br>
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+							">
+							<input type="image" class='pp'  width='150' src="images/donate10.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+
+
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+							">
+							<input type="image" class='pp' width='150' src="images/donate5.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+
+
+					</div>
+				</div>
+				
+
+				<br><br><br><br>
+
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="rules">
+				<div class="container">
+					<div class="row">
+					<span id="rules"></span>
+						<br>
+						<h1 style='padding-left: 23px'>Just a few rules</h1>
+						<ul>
+							<li>If a donation is not received, your video will not be considered</li>
+							<li>Please try to refrain from vulgar language (there are kids watching!)</li>
+							<li>Videos and donations must be submitted before some date to qualify</li>
+							<li>Winners will be picked on some date and contacted via email</li>
+						</ul>
+						<br><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+	<div class="container">
+		<div class="row donate">
+		<span id="donate"></span>
+			<div class="col-sm-8">
+						<h1>Just want to donate?</h1>
+			<p>If you wish to help this awesome charity but are too embarressed to "sing" (we won't judge), feel free to donate here!</p>
+			<p>Any donations are greatly appreciated and will be used towards an awesome cause.</p>
+			<br>
+				<div class="form form-inline">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+						">
+						<input type="image" class='pp' width='150' src="images/donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<h1>Contact us!</h1>
+				<p>If you don't want to donate online, feel free to email us and we can set up a different option</p>
+				<h3 style='color: #02a9bf'>gettinlippywithit@gmail.com</h3>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div class="container-fluid sponsors" id="sponsors">
+		<div class="container">
+			<div class="row">
+				<h1>Sponsors</h1>
+				<br>
+				<div class="col-sm-6">
+					<a href="http://fuelcreativestudio.com" target='_blank'><img src="images/fuelLogo.png" alt="" width="500" class='img img-responsive'></a>
+
+				</div>
+				<div class="col-sm-6">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="footer">
+				<div class="container">
+					<div class="row" style='text-align: center'>
+						<p style='color: white; padding-top: 20px; display: inline; font-size: 15px'>Powered by:  </p><br>
+						<a href="http://fuelcreativestudio.com" target='_blank'><img src="images/logo.png" alt="" style='display: inline' width='40'></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src='scripts/js/nav.js'></script>
+	<script>
+		smoothScroll.init({
+			updateURL: false,
+			offset: 500
+		});
+		document.getElementById('submit').onclick = function(){
+			$.ajax({
+				url: 'scripts/addperson.php',
+				data: {
+					submit: 'adduser',
+					name: document.getElementById('name').value,
+					email: document.getElementById('email').value,
+					link: document.getElementById('link').value
+				},
+				type: "POST",
+				success: function(resp){
+					if(resp == "success")
+					{
+						alert('Thanks! Your entry has been submitted!');
+					}
+				},
+				error: function(a,b,c){
+					alert(c);
+				}
+			});
+		};
+	</script>
+</body>
+
+</html>
