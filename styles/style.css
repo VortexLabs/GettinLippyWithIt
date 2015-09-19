@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
 
 html{
 	overflow-x: hidden
@@ -6,14 +7,14 @@ html{
 html, body{
 	padding: 0;
 	margin: 0;
-	font-family: Arimo;
+	font-family: Sofia-Pro, Arimo;
 	background-color: #222222;
 }
 
 
 
 .title{
-	background-color: #00A896;
+	background-color: #3ec9a7;
 	height: 75px;
 	line-height: 75px;
 	position: fixed;
@@ -32,20 +33,33 @@ html, body{
 	list-style-type: none;
 }
 
+.corner{
+	display: inline-block;
+	position: absolute;
+
+}
+
+.corner img{
+	width: 300px
+}
+
 .title ul{
 	float: right;
 	z-index: 100;
 	color: white;
+	display: inline-block;
 
 }
 
 .title ul li{
 	display: inline;
 	padding: 29px 50px 29px 50px;
+	font-family: sofia-pro, Arimo;
 }
 
 .title ul li:hover{
-	background-color: #00d9c3
+	background-color: #00d9c3;
+	cursor: pointer;
 }
 
 .title h1{
@@ -53,32 +67,15 @@ html, body{
 	margin: 0;
 	line-height: 100px;
 	color: white;
-	font-family: Arimo;
+	
 	font-weight: 700;
 	padding-left: 400px;
 	z-index: 1
 }
 
-.title-angle{
-	height: 1000px;
-	-webkit-transform: rotate(-25deg) ;
-	-moz-transform: rotate(-25deg) ;
-	-o-transform: rotate(-25deg) ;
-	transform: rotate(-25deg) ;
-	width: 100%;
-	background-color: #028090;
-	position: fixed;
-	-webkit-animation: dropDown 0.5s;
-	-moz-animation: dropDown 0.5s;
-	-o-animation: dropDown 0.5s;
-	animation: dropDown 0.5s;
-	top: -1100px;
-	left: -350px;
-	z-index: 60
-}
 
 .banner{
-	background-image: url('../images/skyline.jpg');
+	background-image: url('../images/banner.jpg');
 	width: 100%;
 	margin-top: 75px;
     background-size: 100% 100%;
@@ -115,7 +112,8 @@ html, body{
 }
 
 .article h1{
-	font-size: 80px
+	font-size: 80px;
+	font-family: museo-slab, Arimo;
 }
 
 .article h4{
@@ -124,7 +122,7 @@ html, body{
 
 
 .content{
-	margin-top: 850px;
+	margin-top: 770px;
 }
 
 
@@ -163,7 +161,7 @@ label{
 }
 
 .rules{
-	background-color: #05668d;
+	background-color: #222222;
 	color: white;
 	min-height: 100px
 }
@@ -173,13 +171,43 @@ label{
 }
 
 .footer{
-	height: 150px;
-	background-color: #3b3b3b;
-	margin-top: 50px;
-	padding-top: 30px
+	height: 90px;
+	background-color: #222222;
+	margin-top: 30px;
+	
+}
+
+.footer p{
+	font-family: sofia-pro;
+	font-weight: 700;
+	color: #939598;
+}
+
+.spacer{
+	padding-left: 150px;
+	padding-right: 150px
 }
 
 
+.videos{
+	background-color: #1a1a1a;;
+	
+	margin-top: 50px;
+	color: white;
+}
+
+.updoot{
+	border: 2px solid white;
+	border-radius: 8px;
+	background-color: rgba(0,0,0,0);
+	padding: 4px 16px 4px 16px;
+	font-family: Lato;
+	margin-left: 100px
+}
+
+.updoot:hover{
+	background-color: rgba(255,255,255,0.5);
+}
 
 
 
@@ -317,8 +345,8 @@ label{
 .about{
 	color: white;
 	padding-left: 23px;
-	background-color: #05668d;
-	padding: 40px 0 50px 23px;
+	background-color: #222222;
+	padding: 0px 0 50px 23px;
 }
 .about p{
 	color: white;
@@ -327,7 +355,8 @@ label{
 
 .charity{
 	color: white;
-	padding-left: 23px
+	padding-left: 23px;
+	background-color: #1a1a1a
 }
 
 .charity p{
@@ -338,11 +367,20 @@ label{
 	color: white;
 	padding: 40px 0 50px 23px;
 	margin-top: 70px;
-	background-color: #05668d;
+	background-color: #1a1a1a;
 
+}
+
+.instructions{
+	background-color: #1a1a1a
 }
 
 .hamburger{
 	display: none;
 }
 
+.filters{
+	display: inline-block;
+	margin-left: 40px;
+
+}

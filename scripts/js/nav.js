@@ -3,12 +3,12 @@ var open = false;
 document.getElementById('hamburger').onclick = function(){
 	if(open)
 	{
-		document.getElementById('nav').style.display = 'none';
+		document.getElementById('hide').style.display = 'none';
 		open = false;
 	}
 	else
 	{
-		document.getElementById('nav').style.display = 'block';
+		document.getElementById('hide').style.display = 'block ';
 		open = true;
 	}
 }
