@@ -36,8 +36,48 @@
 		width: 50%
 	}
 
+	.number{
+		margin: auto auto;
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
 
-	
+	#submit{
+		width: 90%;
+	}
+
+	#submit-yo{
+		margin-bottom: 20px;
+	}
+
+	.videos{
+		padding-left: 35px;
+	}
+
+	#filters{
+		text-align: center;
+		margin: auto auto;
+
+	}
+
+	#filter{
+		width: 300px;
+		padding: 0;
+		margin-left: -36px
+	}
+
+	#submit2{
+		width: 100% !important;
+	}
+
+	.center{
+		text-align: center;
+		margin-top: 40px
+	}
+
+	.sponsor-img{
+		margin-left: 50px
+	}
 
 }
 

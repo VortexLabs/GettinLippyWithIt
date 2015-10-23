@@ -49,7 +49,7 @@
 			<div class="row">
 				<br>
 				<div class="spacer">
-					<h1 style='padding-left: 30px'>The Charity</h1>
+					<h1 style='padding-left: 35px'>The Charity</h1>
 					<div class="col-sm-8">
 						<p>
 						Since
@@ -140,8 +140,8 @@
 
 					</p>
 					</div>
-					<div class="col-sm-2">
-						<a href='http://www.kidsinthehallbistro.com/' target="_blank"><img src="images/kith.jpg" alt="" width='100'></a>
+					<div class="col-sm-2" style='text-align: center'>
+						<a href='http://www.kidsinthehallbistro.com/' target="_blank"><img src="images/kith.jpg" alt="" width='100' ></a>
 						<br><br>
 					</div>
 					
@@ -324,7 +324,8 @@
 					<div class="row" >
 						<div class="spacer">
 							<br><br>
-							<h1 style='display: inline'>Submissions</h1>
+							<h1 style='display: inline' id='submit-yo'>Submissions</h1>
+							<br><br>
 							<div class="filters">
 
 								<select id="filter" class='form-control'>
@@ -336,7 +337,7 @@
 								<input type="text" id='searchText' placeholder='Search term' class='form-control' style='display: none'>
 							</div>
 							<br><br>
-							<table class='table'>
+							<table class='table' id='myTable'>
 								<thead>
 									<tr>
 										<th>Name</th>
@@ -377,10 +378,10 @@
 
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4" >
 				<h1>Want a ticket?</h1>
 				<p>Want to go to the event on February 27th but don't want to submit a video?  Fill out this form and donate using the button..</p>
-					<form class="form">
+					<form class="form" >
 						<div class="form-group">
 							<input type="text" class='form-control' placeholder='Full Name' id='name2'>
 						</div>
@@ -393,7 +394,7 @@
 					</form>
 					<button class='btn btn-primary' id='submit2' style='width: 145px; margin-left: 2px'>Submit</button>
 
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<form class='center' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 								<input type="hidden" name="cmd" value="_s-xclick">
 								<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
 								">
@@ -472,11 +473,11 @@
 				<h1 style='margin-left: 23px'>Sponsors</h1>
 				<br>
 				<div class="col-sm-4">
-					<a href="http://fuelcreativestudio.com" target='_blank'><img src="images/fuel_logo.png" alt="" width="200" class='img img-responsive' style='padding: 40px'></a>
+					<a href="http://fuelcreativestudio.com" target='_blank'><img src="images/fuel_logo.png" alt="" width="200" class='img img-responsive sponsor-img' style='padding: 40px'></a>
 
 				</div>
 				<div class="col-sm-4">
-					<a href="https://www.highlandsgolfclub.com/" target='_blank'><img src='images/highlands.png' width='200' class='img img-responsive'  style='padding: 10px; margin-top: 20px'></a>
+					<a href="https://www.highlandsgolfclub.com/" target='_blank'><img src='images/highlands.png' width='200' class='img img-responsive sponsor-img'  style='padding: 10px; margin-top: 20px'></a>
 				</div>
 				<div class="col-sm-4">
 					<img src='images/phil_logo.png' width='300' class='img img-responsive'  style='padding: 10px'>
