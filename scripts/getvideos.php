@@ -1,7 +1,7 @@
 <?php
 require_once 'inc/db.php';
 
-$q = "SELECT * FROM People";
+$q = "SELECT * FROM People WHERE Link <> '' ORDER BY PersonID DESC";
 
 $data = [];
 

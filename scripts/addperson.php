@@ -6,8 +6,24 @@
     	$name = $_POST['name'];
     	$email = $_POST['email'];
     	$link = $_POST['link'];
+        $attending = $_POST['attending'];
+        $a = 0;
+        if($attending == "Yes")
+        {
+            $a = 1;
 
-    	$q = "INSERT INTO People (Name, Email, Link) VALUES ('$name', '$email', '$link')";
+            $q = "SELECT PersonID FROM People WHERE Attending = 1";
+            $result = mysqliQuery($q);
+            if(count($result) >= 180)
+            {
+                echo "too many people";
+                die();
+            }
+        }
+
+
+
+    	$q = "INSERT INTO People (Name, Email, Link, Attending) VALUES ('$name', '$email', '$link', $a)";
     	mysqliNonQuery($q);
 
     	echo "success";
